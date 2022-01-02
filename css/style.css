@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@font-face {
+  font-family: "Zing";
+  src: url(zing-rust.otf) format("otf");
+}
+/* header */
+/* celular */
+/* tablet */
+/* computadora */
+.background {
+  background-color: white;
+}
+.background a {
+  color: #1d1d1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+ul ul li {
+  display: block;
+  background: white;
+  padding: 10px;
+  word-spacing: 5px;
+}
+ul ul li:hover ul {
+  display: block;
+}
+
+/* TITULOS DE ARCHIVOS HTML */
+.title-products {
+  padding-top: 50px;
+  color: #1d1d1b;
+  font-family: "Abril Fatface", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.productos-accesorios {
+  margin: 40;
+}
+
+/* PÁGINA VENDER */
+.section-vender {
+  margin: 100px;
+  padding: 50px;
+  box-shadow: 2px 2px 20px 0.5px #bebebe;
+  background-color: white;
+}
+
+.title-vender {
+  color: #1d1d1b;
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.5rem;
+  text-decoration: none;
+  /*text-align: center;*/
+}
+
+.subtitle-vender {
+  color: #1d1d1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  /*text-align: center;*/
+  padding-top: 20px;
+}
+
+.text-vender {
+  color: #1d1d1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  /*text-align: center;*/
+}
+
+.text-vender-50 {
+  color: #1d1d1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  text-decoration: none;
+  /*text-align: center;*/
+}
+
+.btn-product {
+  background-color: #e72b88;
+}
+
+.div-formulario {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.boton-formulario {
+  color: #e72b88;
+}
+
+/* FIN ARCHIVOS HTML */
+/* FONT SIZE */
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: white;
+}
+
+/* SECCIÓN SHOWROOM */
+/* botón para ir a instagram */
+.boton {
+  background-color: #e72b88;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boton:hover {
+  background-color: #1d1d1b;
+  color: white;
+}
+
+/* SECCIÓN FERIA */
+/* botón para ir a whatsapp */
+.boton-feria {
+  background-color: #9bcb8f;
+  border: none;
+  border-radius: 12px;
+  color: #1d1d1b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boton-feria:hover {
+  background-color: #1d1d1b;
+  color: white;
+}
+
+.title-secciones {
+  color: #1d1d1b;
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.resaltado {
+  background-color: #f9d738;
+}
+
+.text-secciones {
+  color: #1d1d1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* FIN SECCIONES DE SHOWROOM Y FERIA */
+/* footer */
+.footer-home {
+  background-color: #1d1d1b;
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.lista-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-seguinos,
+.footer-copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-seguinos {
+  color: white;
+}
+
+.footer-copyright {
+  font-size: 1.3rem;
+  color: #c2bcbc;
+}
+
+/* fin footer */
+
+/*# sourceMappingURL=style.css.map */

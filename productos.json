@@ -1,0 +1,75 @@
+
+
+[
+    {
+        "nombre": "Vestido lila morley",
+        "marca": "Camarón brujo",
+        "precio": 900,
+        "stock": 1,
+        "img": "ropa-1.jpeg"
+    },
+    {
+        "nombre": "Top transparente verde",
+        "marca": "47 Street",
+        "precio": 800,
+        "stock": 1,
+        "img": "ropa-2.jpeg"
+    },
+    {
+        "nombre": "Vestido negro",
+        "marca": "Ver",
+        "precio": 800,
+        "stock": 1,
+        "img": "ropa-3.jpeg"
+    },
+    {
+        "nombre": "Jean cuadrille",
+        "marca": "Muaa",
+        "precio": 1000,
+        "stock": 1,
+        "img": "ropa-4.jpeg"
+    },
+    {
+        "nombre": "Short de jean",
+        "marca": "Kimeika",
+        "precio": 900,
+        "stock": 1,
+        "img": "ropa-5.jpeg"
+    },
+    {
+        "nombre": "Bikini blanca",
+        "marca": "47 Street",
+        "precio": 1400,
+        "stock": 1,
+        "img": "ropa-6.jpeg"
+    },
+    {
+        "nombre": "Gorra margaritas",
+        "marca": "Rip Curl",
+        "precio": 500,
+        "stock": 1,
+        "img": "ropa-7.jpeg"
+    },
+    {
+        "nombre": "Conjunto sky",
+        "marca": "Rimmel",
+        "precio": 1200,
+        "stock": 1,
+        "img": "ropa-8.jpeg"
+    },
+    {
+        "nombre": "Short cuadrille BYN",
+        "marca": "Kimeika",
+        "precio": 800,
+        "stock": 1,
+        "img": "ropa-9.jpeg"
+    },
+    {
+        "nombre": "Borcegos negros charol",
+        "marca": "47 Street",
+        "precio": 900,
+        "stock": 1,
+        "img": "ropa-10.jpeg"
+    }
+    
+]

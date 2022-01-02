@@ -1,0 +1,131 @@
+@import "colores";
+@import "fonts";
+@import "header";
+@import "archivos";
+
+
+
+
+/* FONT SIZE */
+html{
+    font-size: 10px;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+
+/* SECCIÓN SHOWROOM */
+
+/* botón para ir a instagram */ 
+.boton {
+    background-color: $third-color; 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Roboto";
+
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+}
+.boton:hover {
+    background-color: $first-color;
+    color: white;
+}
+
+
+/* SECCIÓN FERIA */
+
+/* botón para ir a whatsapp */ 
+.boton-feria {
+    background-color: #9bcb8f; 
+    border: none;
+    border-radius: 12px;
+
+    color: $first-color;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Roboto";
+
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+}
+.boton-feria:hover {
+    background-color: $first-color;
+    color: white;
+}
+
+
+
+.title-secciones {
+    color: $first-color;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.resaltado {
+    background-color: $second-color;
+}
+
+.text-secciones {
+    color: $first-color;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+} 
+/* FIN SECCIONES DE SHOWROOM Y FERIA */
+
+
+
+/* footer */
+.footer-home {
+    background-color: $first-color;
+    padding: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.lista-footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-seguinos,
+.footer-copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-seguinos {
+    color: white;
+}
+.footer-copyright {
+    font-size: 1.3rem;
+    color: rgb(194, 188, 188);
+}
+
+/* fin footer */

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- ICONO -->
+    <link rel="shortcut icon" href="img/logo-redondo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- BOOTSRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <!-- FONT AWESOME -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BOOTSWATCH -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/simplex/bootstrap.min.css">
+
+
+    <title>Accesorios</title>
+
+</head>
+<body>
+
+  
+      <!-- MENÚ de bootstrap -->
+
+      <header class='header-home'>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light background">
+          <div class="container-fluid">
+  
+            <a navbar-brand href="index.html">
+              <img src="img/logo.png" alt="logo" class="logo-link">
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+              <ul class="nav nav-tabs d-flex align-items-center d-print">
+  
+                  <li class="nav-item px-5">
+                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item px-5">
+                    <a class="nav-link" href="quiero-vender.html">QUIERO VENDER</a>
+                  </li>
+ 
+              </ul>
+            
+  
+            </div>
+
+              <ul class="nav nav-tabs d-flex align-items-center d-print">
+
+                 <!-- carrito de compras -->
+                 <li className="nav-item">
+                     <button id="botonCarrito" data-bs-toggle="modal" data-bs-target="#idModal"  class="btn"> <i class="fas fa-cart-plus fa-3x"></i> </button>
+                 </li>
+
+              </ul>
+
+
+  
+          </div>
+  
+        </nav>
+  
+      </header>
+      <!-- FIN MENÚ -->
+
+
+
+    
+      <!-- LANDING PAGE DEL CARRITO DE COMPRAS -->
+
+      <div class="modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" id="modal-body">
+                
+              </div>
+              <div class="row ml-ato">
+                <p id="precioTotal"></p>
+              </div>
+              <div class="modal-footer">
+                
+                
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" data-bs-dismiss="modal" class="btn btn-dark" id="botonFinalizarCompra">Finalizar Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+
+ <section>
+
+   <div class="container">
+      
+       <div class="row">
+        <div class="col-2  gx-5 gy-5">
+           <h1 class="title-products roboto">
+              PRODUCTOS 
+           </h1>
+ 
+        </div>
+       </div>
+
+       <div class="col-10 productos-accesorios">
+         <div class="row"></div>
+
+       </div>
+
+
+        <!-- DIV CON TODOS LOS PRODUCTOS CREADOS EN JAVASCRIPT -->
+       <div class="row" id="divProductos"></div>
+
+
+   </div>
+
+</section>
+
+
+
+   <!-- FOOTER -->
+   <footer class="footer-home"> 
+
+    <p class="footer-seguinos"> Seguinos en nuestras redes sociales: </p>
+
+      <ul class="lista-footer roboto">
+
+        <a href="https://www.instagram.com/cambalacheropa/">
+            <img src="img/instagram-color.png" alt="logo de instagram" >
+        </a>
+
+        <a href="https://www.facebook.com/cambalacheropasinfin/">
+            <img src="img/facebook-color.png" alt="logo de facebook">
+        </a>
+
+        <a href="wa.me/542994296740">
+            <img src="img/whatsapp-color.png" alt="logo de whatsapp">
+        </a>
+        
+      </ul>
+
+      <br>
+      <br>
+
+    <p class="footer-copyright"> COPYRIGHT CAMBALACHE ROPA SIN FIN - 2021. TODOS LOS DERECHOS RESERVADOS. </p>
+
+
+ </footer>
+ <!-- FIN DEL FOOTER -->
+
+
+
+    <!--JAVA -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+    <!-- Llamo a los archivos JS -->
+    <script src="script.js" ></script>
+    <script src="productos.js" ></script>
+    <script src="producto.js" ></script>
+    <script src="eventos.js" ></script>
+
+    <!-- JQUERY -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <!-- FONT AWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    
+</body>
+</html>
